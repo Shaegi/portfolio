@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database versin="1.0">
+  <project id="0" type="website" keycolor1="#d5af70" keycolor2="white" lang="DE" link="http://autofill.lol" progress="100%">
+    <title>
+      <![CDATA[Autofill.lol]]>
+    </title>
+    <shortDescription>
+      <![CDATA[Dynamische Videospielwebseite]]>
+    </shortDescription>
+    <logo><![CDATA[media/autofillLogo.png]]></logo>
+    <description>
+      <![CDATA[
+      <h1>Autofill.lol</h1>
+      <h2>Dynamische Videospielwebseite</h2>
+
+    Die Seite Autofill.lol ist ein Freizeit Projekt von einem
+     Kommolitonen und mir, dort helfen wir Spielern des Spiels League of Legends bei der
+      Auswahl ihrer Helden.
+        <div class="headlineWrapper">
+          <img class="headlinePhoto" src="media/head2.JPG"/>
+          <h3 class="headlineText">Vision und Umsetzung</h3>
+          <div class="headlineContainer"></div>
+        </div>
+        Dabei war es uns wichtig den Spielern ein so schnelles Erlebnis wie möglich zu geben, dabei aber nicht auf Features zu verzichten. </br>
+        Das System der Seite ist sehr einfach aufgebaut, man wählt eine der 5 sogenannten Lanes auf der Startseite aus. Und bekommt von uns ausgewählte Helden zur Auswahl.
+        Nun kann man entweder sagen, dass man diesen Champion genommen hat und damit sein Spiel bestreiten will oder man sagt das man einen neuen Helden zur Auswahl möchte.</br>
+        Entscheidet man sich für den Helden so bekommt man Verlinkungen auf Webseiten die dem Spieler helfen seinen Helden auszureitzen und das Spiel so gut es geht zu bestreiten.
+        Auch kann der Spieler den sogenannten Skin-Generator für den Helden auswählen.
+        Dort kann er in der Auswahl aller "Skins" des Helden, optische Verbesserungen die man mit Echtgeld kaufen kann, jene auswählen, die er im Besitz hat und es wird zufällig einer dieser ausgewählt.
+      </br>
+      Sobald einer der Helden ausgewählt ist so steigt das Ranking dieses Helden auf unserer Webseite. Dieses Ranking kann man auf unserer Seite einsehen, um zu sehene welche Champions auf unserer Seite
+      sehr beliebt sind.
+    </br>
+    Im Moment sind wir dabei, genau diese Statistiken weiter auszureizen ohne dabei auf externe Quellen zuzugreifen, zur Zeit sieht man nur die allgemeinen "Votes" der Champions.
+    In Zukunft möchten wir für jeden Champion detailierte Auskunft über seine meist gespielte Lane geben, sowie auch die meist gespielten Skins.
+  </br>
+  Jedoch wissen wir, dass wir mit unserem Tool langsam an die Grenzen des Machbaren, ohne externe Quellen gehen. So können wir zum Beispiel nicht mit einbeziehen wie oft ein Held auf einer Lane gewinnt. Dazu verweisen wir im Moment noch auf externe Seiten.
+  Dies wäre möglich, wenn man die spieleigene API benutzt, welche jedoch nicht die Sprache geschrieben ist die mit unserer kompatibel ist.
+  Jedoch suchen wir nach einem Weg diese Informationen trotzdem einzubinden.
+  <div class="headlineWrapper">
+    <img class="headlinePhoto" src="media/head2.JPG"/>
+    <h3 class="headlineText">Entwicklungsprozess</h3>
+    <div class="headlineContainer"></div>
+  </div>
+  Da dieses Projekt ein Projekt zu zweit war, fiehl uns die Aufgabenteilung nicht schwer. Einer hat das Frontend und einer das Backend übernommen. </br>
+  Dabei habe ich die Rolle des Backendentwicklers übernommen und habe dabei die Logik der Webseite vorwiegend mit PHP geschrieben. Dabei war hauptsächlich der Suchprozess ein Problem. Der Benutzer sollte keine doppelten Helden bekommen sowie auch nach Helden filtern können (kommmt bald).</br>
+  Zudem musste ich mich um die Datenhaltung und Auslesung kümmern. Dies ist im Moment noch über XML realisiert, was jedoch bei einer immer steigenden Anzahl von Helden sowie auch Skins ein zunehmendes Problem wird. Da eine automatische Überprüfung von neuen Helden sowie auch Skins ein Problem darstellt, müssen wir zur Zeit diese manuell eintragen.
+  Jedoch ist auch das schwierig, da wir unsere Bildquellen von der League of Legends Seite beziehen und diese sehr inkonsistent geschrieben ist. So kann man sich nicht immer auf eine durchgehende Nummerierung der Skins verlassen. </br>
+  In Zukunft möchten wir daher auf eine MySQL Datenbank umstellen, was jedoch eine Umprogrammierung der Datenhaltung zugrunde hätte.
+  <br><a class="projectLink" href="http://autofill.lol"><button>Zur Webseite</button></a>
+  <div class="badgesbar">
+    <div class="badges job">Backend</div>
+    <div class="badges code">PHP</div>
+    <div class="badges code">JavaScript</div>
+    <div class="badges code">XML</div>
+  </div>
+</p>
+           ]]>
+    </description>
+    <technologies>
+      <technologie>
+        <![CDATA[PHP]]>
+      </technologie>
+      <technologie>
+        <![CDATA[Bootstrap]]>
+      </technologie>
+      <technologie>
+        <![CDATA[JavaScript/JQuery]]>
+      </technologie>
+      <technologie>
+        <![CDATA[XML]]>
+      </technologie>
+    </technologies>
+    <taskAreas>
+      <taskArea>
+      <![CDATA[Backend]]>
+      </taskArea>
+    </taskAreas>
+    <duration>
+      <![CDATA[2 Monate]]>
+    </duration>
+    <media>
+      <element>
+        <![CDATA[media/proj0.jpg]]>
+      </element>
+    </media>
+  </project>
+  <project id="1" type="website" lang="DE" keycolor1="#335873" keycolor2="#303030" link="/kreativitaetslos" progress="100%">
+    <title>
+      <![CDATA[Kreativiätslos]]>
+    </title>
+    <shortDescription>
+      <![CDATA[Studienprojekt]]>
+    </shortDescription>
+    <logo><![CDATA[none]]></logo>
+    <description>
+      <![CDATA[
+      <h1>Kreativitätslos</h1>
+      <h2>Studienprojekt</h2>
+
+        <div class="headlineWrapper">
+          <img class="headlinePhoto" src="media/head2.JPG"/>
+          <h3 class="headlineText">Vision und Umsetzung</h3>
+          <div class="headlineContainer"></div>
+        </div>
+        >
+        Bei dem Modul "Mediale Projektphase 2" des zweiten Semesters ging es darum parallel zu dem Modul "Webprogrammierung 1" seine gelernten Fähigkeiten zu beweisen und dabei eine Webseite seiner Wahl umzusetzen mit einem Modul aus einer Auswahl die von Dozenten festgelegt wurden, ich enschied mich dabei für das Modul Mehrsprachigkeit. Dabei habe ich mich zunächst dazu entschieden eine Seite zu schreiben, welche von mir herrausgesuchte Designs vorstellen soll um anderen Leuten eine Art Ideen Sammlung zu bieten. Diese Idee entwickelte ich schon ein Semester zuvor, zu dem Modul "Mediale Projektphase 1", wo wir ein Mockup sowie ein Wireframe einer Webseite unserer Wahl erstellen sollten (mehr dazu im Abschnitt Entwicklungsprozess).<br>
+        Die Idee des der Webseite wuchs schnell dazu herran, dass ich nicht nur von mir selber präsentierte Designs zeigen wollte, sondern es eine Seite sein sollte für jeden, der an Design jeglicher Art interssiert ist. So baute ich ein eine Art Forum, wo jeder eigene Designs hochladen konnte (work in progress) und für seine Lieblignsdesigns abstimmen sowie diese kommentieren konnte.
+        Aufgrund der begrenzten Zeit sind viele Bauteile des Projektes noch nicht vollständig fertiggeworden.
+      </p>
+        <div class="headlineWrapper">
+          <img class="headlinePhoto" src="media/head2.JPG"/>
+                  <h3 class="headlineText">Entwicklungsprozess</h3>
+          <div class="headlineContainer"></div>
+        </div>
+        Bei der Entwicklung habe ich mich auf die in der Vorlesung behandelten Technologien beschränkt. Auch Frameworks waren nicht erlaubt. D.h. HTML, CSS, PHP, XML und Javascript. Die Webseite ist dabei hauptsächlich auf ein PHP Backend beschränkt sowie XML für die Datenhaltung. Jedoch hat XML einen großen Nachteil, nämlich die Sicherheit. Jeder der den Pfad zu der Datei kennt könnte theoretisch auf die Nutzerdatenbank zugreifen (was aber nicht weiter ein Problem war, da dies nur ein Studienprojekt war). Deswegen sollte es man bei zukünftigen Projekten bei der Anlegung von Userdaten bzw. Daten die nicht für Jeden einsehbar sein sollten eher auf SQL als auf XML setzen. </br>
+        Bei dem Projekt habe ich sehr viel über die einzelnen Technologien gelernt, sowie auch über Programmierung im Allgemeinen. </br>
+        Ich musste viele Abfragen gerade auch für das Login schreiben. Denn der Benutzer hatte natürlich auch einen Benutzer Bereich und man sollte auch Kommentare wieder löschen können, wenn man einer bestimmten Benutzergruppe zugehörig ist.</br>
+        Zudem war es auch nötig für mein Modul zu unterscheiden, welche Sprache der Benutzer benutzen möchte.</br>
+        Im Nachhinein musste ich feststellen, dass ich nicht nur ein Modul umgesetzt hatte sondern auch zum Beispiel das Modul eines dynamischen CMS mit Userhaltung in meiner Webseite verbaut hatte, was den Umfang meines vorgegebenen Projektes um ein weites Überschritt.
+        <br><a class="projectLink" href="/kreativitaetslos"><button>Zur Webseite</button></a>
+        <div class="badgesbar">
+          <div class="badges job">Frontend</div>
+          <div class="badges job">Backend</div>
+          <div class="badges code">PHP</div>
+          <div class="badges code">JavaScript</div>
+          <div class="badges code">XML</div>
+        </div>
+         ]]>
+    </description>
+    <media>
+      <element>
+        <![CDATA[media/proj1.jpg]]>
+      </element>
+    </media>
+  </project>
+  <project id="2" type="3D" keycolor1="#0e716e" keycolor2="black" lang="DE" link="test.de" progress="100%">
+    <title>
+      <![CDATA[Audi TT 3D Model]]>
+    </title>
+    <shortDescription>
+      <![CDATA[Studienprojekt]]>
+    </shortDescription>
+    <logo><![CDATA[none]]></logo>
+    <description>
+      <![CDATA[
+      <h1>Audi TT 3D Modell</h1>
+      <h2>Studienprojekt</h2>
+
+      Als Studienprojekt hatten wir im 3. Semester die Aufgabe ein 3D Modell eines Autos zu erstellen.
+      Ich habe mich dabei für einen Audi TT von 2015 entschieden. Dabei habe ich mit der Software Maya von Autodesk gearbeitet und von Boxmodelling bis UV-Mapping und Shading alles von Anfang gemacht.
+    <div class="projectMedia">
+       <img width="100%" src="media/audiTTRender.jpeg" alt="Audi TT Render">
+       </div>
+       <div class="badgesbar">
+         <div class="badges job">Backend</div>
+         <div class="badges code">PHP</div>
+         <div class="badges code">JavaScript</div>
+         <div class="badges code">XML</div>
+       </div>
+    ]]>
+    </description>
+    <media>
+      <element>
+        <![CDATA[media/proj2.jpg]]>
+      </element>
+    </media>
+  </project>
+  <project id="3" type="Video" keycolor1="#db2824" keycolor2="white" lang="DE" link="https://www.youtube.com/user/OnionheadGaming" progress="100%">
+    <title>
+      <![CDATA[YouTube Channel]]>
+    </title>
+    <shortDescription>
+      <![CDATA[Videos über Videospiele]]>
+    </shortDescription>
+    <logo><![CDATA[none]]></logo>
+    <description>
+      <![CDATA[
+      <h1>Shägi</h1>
+      <h2>Youtube Channel</h2>
+
+      <div class="headlineWrapper">
+        <img class="headlinePhoto" src="media/head2.JPG"/>
+        <h3 class="headlineText">Vision</h3>
+        <div class="headlineContainer"></div>
+      </div>
+      <p>
+      Schon seitdem ich 13 bin habe ich viel Interesse an Videoschnitt und habe immer wieder versucht neben der Schule Videos über Videospiele zu machen. Dabei habe ich am Anfang hauptsächlich Videos über Privat Server des Spiels "Metin 2" gemacht. Später habe ich sogar für die Betreiber einzelner Server Videos geschnitten. </br>
+      Dann habe ich aber vor ca. 5 Jahren mein Interesse an League of Legends gefunden und seitdem immer mal wieder Videos über das Spiel hochgeladen. Hauptsächlich Montagen von Szenen die mir besonders in Erinnerung geblieben sind oder lustige Momente von denen ich dachte, dass sie es wert wären geteilt zu werden. Dabei versuche ich mich gerade bei den Montagen stetig zu verbessern. </br>
+      Durch den Videoschnitt und einen Freund bin ich damals auch auf die sogenannte "Medienwerkstatt" im Jugendhaus meiner damaligen Heimatstadt Witzenhausen aufmerksam geworden. Dort trafen sich meist einmal in der Woche Jugendliche unter der Leitung eines Tutoren um zusammen Projekte rund um das Thema Medien umzusetzen.  </br>
+      Gerade meine Zeit in der Medienwerkstatt und meinr Interesse im Videoschnitt hat mich damals dazu gebracht nach Friedberg umzuziehen und dort mein Studium der Medieninformatik anzufangen.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FNqvaHGKo6A?showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SGutdfwqBm4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <a class="projectLink" href="https://www.youtube.com/user/OnionheadGaming"><button>Zum Kanal</button></a>
+    <div class="badgesbar">
+      <div class="badges job">Adobe Premiere</div>
+      <div class="badges job">Adobe After Effects</div>
+      <div class="badges code">VFX</div>
+    </div>
+]]>
+    </description>
+    <media>
+      <element>
+        <![CDATA[media/proj3.jpg]]>
+      </element>
+    </media>
+  </project>
+  <project id="4" keycolor1="#0e716e" keycolor2="black" type="Video" lang="DE" link="test.de" progress="100%">
+    <title>
+      <![CDATA[Sword in The Stone Animation]]>
+    </title>
+    <description>
+      <![CDATA[
+      <h1>Sword in The Stone Animation</h1>
+      <h2>Character Animation</h2>
+
+      <div class="headlineWrapper">
+        <img class="headlinePhoto" src="media/head2.JPG"/>
+                <h3 class="headlineText">Vision</h3>
+        <div class="headlineContainer"></div>
+      </div>
+        Im 3. Semester habe ich gelernt wie ich mit Maya 3D Objekte modelliere. Das hat mir so viel Spaß gemacht,
+        dass ich mich dazu entschieden habe in den Semesterferien ein Wahlpflichtfach zu belegen, Character Animation.
+         In einem 2 wöchigen Blockkurs lernten wir dort, wie wir in Maya mit sogenannten RIGs Charaktere zu animieren.
+         Auch Teil des Kurses war ein Tag mit einem MotionCaptioring System. Im Anschluss an den Kurs hatten wir Zeit
+          bis zum Ende der Semesterferien einen 6-10s Clip zu erstellen mit einer Szene unserer Wahl.<br>
+          Dabei habe ich mich dazu entschiedenen eine Szene aus dem Disney Film "Sword in the Stone" (1963, dt. Die Hexe und der Zauberer) zu nehmen.
+          In diesem Film geht es um die Sage über König Arthur und dem Zauberschwert im Stein. In der Szene die ich ausgewählt habe versuchen Ritter
+           vergeblich das Schwert aus dem Stein zu ziehen. Die Szene habe ich gewählt, da ich damit sehr gut die sogenannten Animation Principles umsetzen konnte.
+           Diese Principles wurden von den Disney Animatoren Ollie Johnston und Frank Thomas 1981 entwickelt und beschreiben Methoden auf die man achten sollte
+            wenn man bestimmte Szenen animiert um sie lebendiger wirken zu lassen.
+            <div class="headlineWrapper">
+              <img class="headlinePhoto" src="media/head2.JPG"/>
+                      <h3 class="headlineText">Prozess</h3>
+              <div class="headlineContainer"></div>
+            </div>
+          Beim Animieren der Idee ging es mir nicht nur darum die Szene stumpf nachzuanimieren sondern darum, meinen eigenen Stil einzubringen. Dabei hatte ich die Idee mehrere Posen "des Ziehens" zu animieren
+          und diese in sogenannten Jumpcuts zusammenzufügen um einen längeren zeitlichen Verlauf darzustellen ohne die Übergänge zwischen den Posen animieren und zeigen zu müssen. Am Ende der Szene habe ich noch einen WalkCycle eingebaut. Also die Animation des Laufens welche sich unendlich wiederholt.
+          Auch habe ich versucht im gesamten Prozess so viele Kleinigkeiten einzubauen wie ich konnte und auch darauf geachtet, dass sich jedes Körperteil zu jederzeit auch bewegt um eine flüssige Bewegung zu bekommen.
+          <h3>Umgesetzte Animation Principles</h3>
+          <h4>Ars</h4>
+          Unter Arcs versteht man Bögen in der Animation die man im Charakter erkennen kann.
+          <h4>Squash and Stretch</h4>
+          Dabei geht es darum, dass sich ein Objekt zusammenzieht / auseinanderstreckt bei bestimmten Bewegungen um Geschwindigkeit dazustellen.
+          <h4>Anticipation</h4>
+          Anticipation sind Vorbewegungen bevor sich die eigentliche Bewegung abspielt, wie zum Beispiel das Ausholen vor dem Werfen. Oder in meiner Animation das Bücken vor dem kräftigen Ziehen.
+
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/2lXsFmXvp7U" frameborder="0" allowfullscreen></iframe></div>
+        <div class="badgesbar">
+          <div class="badges job">Maya</div>
+          <div class="badges code">Walkcycle</div>
+          <div class="badges code">Animation</div>
+        </div>
+        ]]>
+    </description>
+    <shortDescription>
+      <![CDATA[Character Animation]]>
+    </shortDescription>
+    <media>
+      <element>
+        <![CDATA[media/proj4.jpg]]>
+      </element>
+    </media>
+  </project>
+  <project id="5" keycolor1="#0e716e" keycolor2="black" type="Video" lang="DE" link="test.de" progress="100%">
+    <title>
+      <![CDATA[Battleships]]>
+    </title>
+    <description>
+      <![CDATA[
+      <h1>Battleships</h1>
+      <h2>Interaktives Spiel</h2>
+        <h3>Vision</h3>
+
+        <h3>Entwicklung</h3>
+        <h3>Resultat</h3>
+          <div class="badgesbar">
+            <div class="badges job">Frontend</div>
+            <div class="badges job">UI</div>
+            <div class="badges code">JS</div>
+            <div class="badges code">jQUery</div>
+            <div class="badges code">Greensock</div>
+          </div>
+        ]]>
+    </description>
+    <shortDescription>
+      <![CDATA[Character Animation]]>
+    </shortDescription>
+    <logo><![CDATA[none]]></logo>
+    <media>
+      <element>
+        <![CDATA[media/proj5.jpg]]>
+      </element>
+    </media>
+  </project>
+</database>

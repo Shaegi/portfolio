@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1890" height="1417" viewBox="0 0 1890 1417">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 20px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-1" x="523" y="549" width="766" height="575"/>
+  <path id="Form_1" data-name="Form 1" class="cls-2" d="M528,561.807L1002.37,304,1572,312.78,1275.27,565Z"/>
+  <path id="Form_2" data-name="Form 2" class="cls-2" d="M1569,310l-11,529.824L1286,1124l-8-568Z"/>
+</svg>
