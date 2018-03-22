@@ -8,17 +8,21 @@ $(document).bind('mousewheel', function(e){
   }
 });
 
+$("#zoomDiv").click(()=>{
+  zoomImg("");
+});
 
 var state = {
   "currentSlide" : 0,
-  "scrollable": false
+  "scrollable": false,
+  "challengeOpen" : false
 }
 
 var elements = [
   {"name":"Start","link":"start"},
   {"name":"Projekte","link" :"projects"},
   {"name":"Über mich","link":"about"},
-  {"name":"Meilensteine","link":"milestones"}
+  {"name":"Challenges","link":"challenges"}
 ];
 
 var tl = new TimelineLite();
@@ -39,7 +43,7 @@ function getAnchor(){
     case "about":
       changeSlide(2,"up");
       break;
-    case "milestones":
+    case "challenges":
       changeSlide(3,"up");
       break;
     default:
@@ -95,8 +99,8 @@ function createSlideEvents(slide, id){
   });
 }
 
-
 function changeSlide(id, direction){
+  if(state.scrollable) return
   let currentSlide = state["currentSlide"];
   if(currentSlide == id ||id < 0 || id > 3 || tl.isActive() || state.scrollable){
     return false;
@@ -144,4 +148,29 @@ function repositionSlideDescriptionActive(slide,descriptionText){
 function hideSlideDescription(){
   var des = document.getElementById("slidedescription");
   des.style.opacity="0";
+}
+
+function clearChildNodes(node){
+  while (node.firstChild) {
+    node.removeChild(node.firstChild);
+  }
+}
+
+function zoomImg(src){
+  let zoomImgDiv = document.getElementById("zoomDiv");
+  if(zoomImgDiv.style.display === "block"){
+    zoomDiv.style.display = "none";
+    state.scrollable = false;
+    return;
+  }
+  state.scrollable = true;
+  zoomImgDiv.style.display= "block";
+  let zoomImg = document.getElementById("zoomImg");
+  zoomImg.src = src;
+}
+
+function toggleSlider(){
+  $("#slider").toggle();
+  $("#slidedescription").toggle();
+  $("#slidedescription--active").toggle();
 }

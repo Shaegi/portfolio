@@ -14,6 +14,25 @@
 body{
   overflow: hidden;
 }
+
+.zoomDiv{
+  display: none;
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  z-index: 200;
+  background-color: white;
+  margin: 5vh 5vw;
+}
+
+.zoomDiv img{
+  max-height: 90vh;
+  max-width: 90vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 #particles-js {
   position: absolute;
   background: var(--background);
@@ -30,7 +49,7 @@ body{
   -moz-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
 }
-.projectsContainer, .welcomeContainer, .aboutContainer, .milestoneContainer{
+.container{
   position: absolute;
   z-index:2;
   height:100vh;
@@ -41,12 +60,22 @@ body{
   transition: 1s all ease;
   transform: translateX(150vw);
 }
+
+.container h1{
+  color:var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding-top: 5%;
+  text-align:center;
+  font-size: 3em;
+}
 .welcomeContainer{
   opacity: 1;
   right:0;
   transform:translate(0);
   visibility: visible;
 }
+
 .logoContainer{
   position: absolute;
   left:47vw;
@@ -115,14 +144,7 @@ body{
 }
 /*Projekte*/
 
-.projectsContainer h1, .aboutContainer h1, .milestoneContainer h1{
-  color:var(--primary);
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  padding-top: 5%;
-  text-align:center;
-  font-size: 3em;
-}
+
 
 #projectList{
   display: flex;
@@ -349,6 +371,61 @@ iFrame{
   margin-top: 0;
 }
 
+/*Challgenges*/
+
+.challengeContainer content{
+  position: relative;
+  display: block;
+  width: 80%;
+  height: 60%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: rgba(255,255,255,.1);
+}
+
+.challenge {
+  background: rgba(255,255,255,0.8);
+  cursor: pointer;
+  color:black;
+  padding: 3%;
+  text-align: center;
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+  transition: 1s all ease;
+  overflow-x: auto;
+}
+
+.challengeElement {
+  padding: 2%;
+  margin: 2% auto;
+  background: white;
+  width: 80%;
+  height: auto;
+  display: inline-block;
+  border: 5px solid #eee;
+}
+
+.challengeMedia {
+  padding: 1%;
+  margin: 3%;
+  display: inline-block;
+  float: left;
+  background-color: #ccc;
+}
+
+.challengeMedia p {
+  float: left;
+  padding: 5%;
+  width: 40%;
+}
+
+.challengeMedia img {
+  width : 50%;
+  float: left;
+  cursor: zoom-in;
+}
+
 /*Meilensteine */
 
 .milestoneContent{
@@ -399,13 +476,13 @@ iFrame{
 }
 
 ::-webkit-scrollbar-track-piece {
-    border: 2px solid white;
+    border: 2px solid var(--primary);
     background: transparent;
     border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: var(--primary);
     border-radius: 10px;
 }
 

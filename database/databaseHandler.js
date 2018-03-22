@@ -139,3 +139,108 @@ function createDescriptionOnClick(){
     hideDescription();
   })
 }
+
+const readChallenges = () => {
+  if(!challenges){
+    return;
+  }
+
+  const outtaDiv = document.getElementById("challengesList");
+
+  let i = 0;
+
+  for(let challenge of challenges){
+    const challengeDiv = document.createElement("div");
+    challengeDiv.className = "challenge";
+    challengeDiv.id = "challenge" + i;
+
+    const challengeHeadline = document.createElement("h3");
+    challengeHeadline.innerHTML = challenge.name;
+
+    const challengeDescription = document.createElement("p");
+    challengeDescription.innerHTML = challenge.description;
+
+    challengeDiv.append(challengeHeadline);
+    challengeDiv.append(challengeDescription);
+
+    outtaDiv.append(challengeDiv);
+
+    createChallengeDescription(challenge, challengeDiv.id);
+    i++;
+  }
+}
+
+const createChallengeDescription = (challenge, id) => {
+  $("#" + id).click(() => {
+    const challengeDiv = document.getElementById(id);
+    if(state.challengeOpen){
+      clearChildNodes(document.getElementById("challengeContent"));
+      challengeDiv.style.width = "25%";
+      challengeDiv.style.height = "25%";
+      challengeDiv.style.margin = "0";
+      state.challengeOpen = false;
+      state.scrollable = false;
+      toggleSlider();
+      return;
+    }
+
+    toggleSlider();
+    state.challengeOpen = true;
+    state.scrollable = true;
+    challengeDiv.style.width = "100%";
+    challengeDiv.style.height = "120%";
+    challengeDiv.style.margin = "-3%";
+    switch(challenge.type){
+      case "photoChallenge" :
+      createPhotoChallenge(challenge.elements, id);
+    }
+  })
+}
+
+const createPhotoChallenge = (elements, id) => {
+  const challengeDiv = document.getElementById(id);
+  let challengeContent = document.getElementById("challengeContent");
+  if(challengeContent == null){
+    challengeContent = document.createElement("div");
+    challengeContent.className = "challengeContent";
+    challengeContent.id = "challengeContent";
+    challengeDiv.append(challengeContent);
+  }
+
+  for(let ele of elements){
+    const elementDiv = document.createElement("div");
+    elementDiv.className = "challengeElement";
+
+    const elementHeadline = document.createElement("h4");
+    elementHeadline.innerHTML = ele.date;
+
+    const elementText = document.createElement("p");
+    elementText.innerHTML = ele.text;
+
+    elementDiv.append(elementText);
+    elementDiv.append(elementHeadline);
+
+    //media
+    for(let media of ele.media){
+      const mediaDiv = document.createElement("div");
+      mediaDiv.className = "challengeMedia";
+      const mediaIMG  = document.createElement("img");
+      mediaIMG.src = media.link;
+      const mediaDescription = document.createElement("p");
+      mediaDescription.innerHTML = media.description;
+
+      $(mediaIMG).click(()=>{
+        zoomImg(media.link);
+      })
+
+      mediaDiv.append(mediaDescription);
+      mediaDiv.append(mediaIMG);
+      elementDiv.append(mediaDiv);
+    }
+
+    challengeContent.append(elementDiv);
+  }
+
+}
+
+readChallenges();

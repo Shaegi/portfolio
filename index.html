@@ -12,9 +12,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 </head>
 <body>
+  <div class="zoomDiv" id="zoomDiv">
+    <img id="zoomImg" />
+  </div>
   <span class="slidedescription" id="slidedescription">Home</span>
   <span class="slidedescription slidedescription--active" id="slidedescription--active">Home</span>
-  <div class="slider" id="slider"></div>
+  <div class="slider" id="slider">
+  </div>
   <img id="logo" class="logo" src="media/logo.svg"/>
   <div id="loading">
     <div class="logoContainer">
@@ -23,34 +27,38 @@
     </div>
   </div>
   <div id="particles-js" ></div>
-  <div class="welcomeContainer" id="container0">
-    <h1 class="headline">Ich bin ein <span id="welcomeText"></span></h1>
+  <div class="container welcomeContainer" id="container0">
+    <h2 class="headline">Ich bin ein <span id="welcomeText"></span></h2>
   </div>
-  <div class="projectsContainer" id="container1" role="projects">
+  <div class="container projectsContainer" id="container1" role="projects">
     <h1 id="projHeadline">Projekte</h1>
     <ul id="projectList">
     </ul>
     <div class="projectDescription">
     </div>
   </div>
-  <div class="aboutContainer" id="container2" role="about">
+  <div class="container aboutContainer" id="container2" role="about">
       <h1>Über mich</h1>
       <div class="aboutContent">
-          <div class="photoContainer">
-          <img class="aboutFoto" src="media/profilfoto.jpg">
-          </div>
-          <div class="textContainer">
-          <p class="aboutText"><strong>Hey, ich bin Marvin!</strong><br> Ich bin ein ein Medieninformatikstudent aus Mittelhessen.
-             Schon früh habe ich meine Begeisterung für alles rund um den Computer gefunden. Dabei waren Computerspiele und Videoproduktion ein Hobby,
-              bis ich mich dazu entschieden habe auch meine berufliche Laufbahn in diese Richtung zu lenken. Nun ist es nicht nur mehr ein Hobby
-              als auch eine Leidenschaft.<br><br>
-              Im Studium habe ich meine Begeiserung für Webseiten gefunden, da dies viele meiner Interessen verbindet -
-              Gestaltung, Programmierung, Fotografie, Videoproduktion und vor allem <strong> kreativ sein. </strong>
-          </p>
-      </div>
+        <div class="photoContainer">
+        <img class="aboutFoto" src="media/profilfoto.jpg">
+        </div>
+        <div class="textContainer">
+        <p class="aboutText"><strong>Hey, ich bin Marvin!</strong><br> Ich bin ein ein Medieninformatikstudent aus Mittelhessen.
+           Schon früh habe ich meine Begeisterung für alles rund um den Computer gefunden. Dabei waren Computerspiele und Videoproduktion ein Hobby,
+            bis ich mich dazu entschieden habe auch meine berufliche Laufbahn in diese Richtung zu lenken. Nun ist es nicht nur mehr ein Hobby
+            als auch eine Leidenschaft.<br><br>
+            Im Studium habe ich meine Begeiserung für Webseiten gefunden, da dies viele meiner Interessen verbindet -
+            Gestaltung, Programmierung, Fotografie, Videoproduktion und vor allem <strong> kreativ sein. </strong>
+        </p>
+        </div>
       </div>
   </div>
-  <script src="js/popmotion.global.min.js"></script>
+  <div class="container challengeContainer" id="container3">
+    <h1>Challenges</h1>
+    <content id="challengesList">
+    </content>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
   <script src="js/particles.js"></script>
@@ -58,6 +66,7 @@
   <script src="js/myjs.js"></script>
   <script src="js/index.js"></script>
   <script src="database/projects.json"></script>
+  <script src="database/challenges.json"></script>
   <script src="database/databaseHandler.js"></script>
   </body>
 </html>

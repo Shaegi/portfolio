@@ -1,0 +1,24 @@
+var challenges = [
+    {
+      "name" :"2 Pics a Day",
+      "description": "Jeden Tag den ich entwickle möchte ich festhalten. Deswegen Poste ich jeden Tag den ich an Projekten arbeite zwei Bilder. Eins davon wird die Entwicklung der UI zeigen und eins eine Funktion innerhalb des Codes worauf ich besonders stolz bin oder die mich am Meisten zum Verzweifeln gebracht hat.",
+      "type" : "photoChallenge",
+      "elements" : [
+        {
+          "date" : "22.03.2018",
+          "project" : "portfolio",
+          "text": "Erster Tag. Entwickeln der Plattform für die Challenges und erstes Anlegen von Elementen, wie diesem hier.",
+          "media" : [
+            {
+              "link" : "media/challenges/0/03-22-18/1.JPG",
+              "description" : "Funktion zum Auslesen der Challenges aus der JSON Datei. Dies geschieht analog zum Auslesen der Projekte. Um keine unnötigen Frameworks benutzen zu müssen. Daraus wird dann HTML generiert. Da ich bis jetzt nur diese eine Challenge habe wird auch nur diese angezeigt."
+            },
+            {
+              "link" : "media/challenges/0/03-22-18/0.JPG",
+              "description" : "Oberfläche der Challenges innerhalb des Portfolios. Noch viel zu tun aber gut genug für den Start der Challenge."
+            }
+          ]
+        }
+      ]
+    }
+]
