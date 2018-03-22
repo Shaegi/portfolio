@@ -1,0 +1,102 @@
+data =[
+  {
+  "projectName" : "Autofill",
+  "subTitle" : "Dynamische Videospielwebseite",
+  "thumbnail" : "proj0",
+  "type": "Website",
+  "projectLink" : "http://autofill.lol",
+  "isOnProjectPage" : true,
+  "description": [
+    {
+      "content": "Die Seite Autofill.lol ist ein Freizeit Projekt von einem Kommolitonen und mir, dort helfen wir Spielern des Spiels League of Legends bei der Auswahl ihrer Helden."
+    },
+    {
+      "headline": "Vision",
+      "content" : "Dabei war es uns wichtig den Spielern ein so schnelles Erlebnis wie möglich zu geben, dabei aber nicht auf Features zu verzichten. </br> Das System der Seite ist sehr einfach aufgebaut, man wählt eine der 5 sogenannten Lanes auf der Startseite aus. Und bekommt von uns ausgewählte Helden zur Auswahl. Nun kann man entweder sagen, dass man diesen Champion genommen hat und damit sein Spiel bestreiten will oder man sagt das man einen neuen Helden zur Auswahl möchte.</br> Entscheidet man sich für den Helden so bekommt man Verlinkungen auf Webseiten die dem Spieler helfen seinen Helden auszureitzen und das Spiel so gut es geht zu bestreiten. Auch kann der Spieler den sogenannten Skin-Generator für den Helden auswählen. Dort kann er in der Auswahl aller \"Skins\" des Helden, optische Verbesserungen die man mit Echtgeld kaufen kann, jene auswählen, die er im Besitz hat und es wird zufällig einer dieser ausgewählt.</br> Sobald einer der Helden ausgewählt ist so steigt das Ranking dieses Helden auf unserer Webseite. Dieses Ranking kann man auf unserer Seite einsehen, um zu sehene welche Champions auf unserer Seite sehr beliebt sind. </br>Im Moment sind wir dabei, genau diese Statistiken weiter auszureizen ohne dabei auf externe Quellen zuzugreifen, zur Zeit sieht man nur die allgemeinen \"Votes\" der Champions. In Zukunft möchten wir für jeden Champion detailierte Auskunft über seine meist gespielte Lane geben, sowie auch die meist gespielten Skins.</br>Jedoch wissen wir, dass wir mit unserem Tool langsam an die Grenzen des Machbaren, ohne externe Quellen gehen. So können wir zum Beispiel nicht mit einbeziehen wie oft ein Held auf einer Lane gewinnt. Dazu verweisen wir im Moment noch auf externe Seiten. Dies wäre möglich, wenn man die spieleigene API benutzt, welche jedoch nicht die Sprache geschrieben ist die mit unserer kompatibel ist. Jedoch suchen wir nach einem Weg diese Informationen trotzdem einzubinden."
+    },
+    {
+      "headline": "Entwicklungsprozess",
+      "content" : "  Da dieses Projekt ein Projekt zu zweit war, fiehl uns die Aufgabenteilung nicht schwer. Einer hat das Frontend und einer das Backend übernommen. </br>Dabei habe ich die Rolle des Backendentwicklers übernommen und habe dabei die Logik der Webseite vorwiegend mit PHP geschrieben. Dabei war hauptsächlich der Suchprozess ein Problem. Der Benutzer sollte keine doppelten Helden bekommen sowie auch nach Helden filtern können (kommmt bald).</br>Zudem musste ich mich um die Datenhaltung und Auslesung kümmern. Dies ist im Moment noch über XML realisiert, was jedoch bei einer immer steigenden Anzahl von Helden sowie auch Skins ein zunehmendes Problem wird. Da eine automatische Überprüfung von neuen Helden sowie auch Skins ein Problem darstellt, müssen wir zur Zeit diese manuell eintragen. Jedoch ist auch das schwierig, da wir unsere Bildquellen von der League of Legends Seite beziehen und diese sehr inkonsistent geschrieben ist. So kann man sich nicht immer auf eine durchgehende Nummerierung der Skins verlassen. </br> In Zukunft möchten wir daher auf eine MySQL Datenbank umstellen, was jedoch eine Umprogrammierung der Datenhaltung zugrunde hätte."
+    }
+  ],
+  "tags" : [
+    {"name": "Backend", "type" : "job"},
+    {"name": "Frontend", "type" : "job"},
+    {"name": "JQuery", "type" : "code"},
+    {"name": "JavaScript", "type" : "code"},
+    {"name": "PHP", "type" : "code"},
+    {"name": "XML", "type" : "code"}
+  ]
+  },
+  {
+    "projectName" : "BattleShips",
+    "isOnProjectPage" : true,
+    "thumbnail" : "proj5",
+    "description" : [
+      {
+        "headline": "Vision",
+        "content" : "Blah Blah"
+      },
+      {
+        "headline": "Entwicklungsprozess",
+        "content" : "Blah Blah"
+      }
+    ],
+    "tags" : [
+      {"name": "Frontend", "type" : "job"},
+      {"name": "JQuery", "type" : "code"},
+      {"name": "JavaScript", "type" : "code"},
+      {"name": "Node", "type" : "code"}
+    ]
+  },
+  {
+    "projectName" : "Deine Gestaltgesetze",
+    "isOnProjectPage" : true,
+    "thumbnail" : "proj6",
+    "description" : [
+      {
+        "headline": "Vision",
+        "content" : "Blah Blah"
+      },
+      {
+        "headline": "Entwicklungsprozess",
+        "content" : "Blah Blah"
+      }
+    ],
+    "tags" : [
+      {"name": "Frontend", "type" : "job"},
+      {"name": "JQuery", "type" : "code"},
+      {"name": "JavaScript", "type" : "code"},
+      {"name": "Node", "type" : "code"}
+    ]
+  },
+  {
+    "projectName" : "Discover MI",
+    "isOnProjectPage" : true,
+    "thumbnail" : "proj7",
+    "link" : "/DiscoverMI",
+    "description" : [
+      {
+        "headline": "Vision",
+        "content" : "Blah Blah"
+      },
+      {
+        "headline": "Entwicklungsprozess",
+        "content" : "Blah Blah"
+      }
+    ],
+    "tags" : [
+      {"name": "Frontend", "type" : "job"},
+      {"name": "Gamification", "type" : "code"},
+      {"name": "Android", "type" : "code"},
+      {"name": "Java", "type" : "code"}
+    ]
+  },
+  {
+    "projectName" : "Weitere Projekte",
+    "isOnProjectPage" : true,
+    "thumbnail" : "projX",
+    "redirection" : true,
+    "directTo" : "archive.html"
+  }
+]
