@@ -380,17 +380,16 @@ iFrame{
   height: 60%;
   margin: 2% auto;
   padding: 2%;
-  background-color: rgba(255,255,255,.1);
 }
 
 .challenge {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
   cursor: pointer;
   color:black;
   padding: 3%;
   text-align: center;
   width: 25%;
-  height: 25%;
+  height:50%;
   display: inline-block;
   transition: 1s all ease;
   overflow-x: auto;
@@ -403,7 +402,7 @@ iFrame{
   width: 80%;
   height: auto;
   display: inline-block;
-  border: 5px solid #eee;
+  border: 5px solid #fff;
 }
 
 .challengeMedia {
@@ -424,6 +423,7 @@ iFrame{
   width : 50%;
   float: left;
   cursor: zoom-in;
+  box-shadow: 4px 4px var(--primary);
 }
 
 /*Meilensteine */

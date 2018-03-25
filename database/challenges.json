@@ -1,9 +1,39 @@
 var challenges = [
     {
-      "name" :"2 Pics a Day",
+      "name" :"Progress in pictures",
       "description": "Jeden Tag den ich entwickle möchte ich festhalten. Deswegen Poste ich jeden Tag den ich an Projekten arbeite zwei Bilder. Eins davon wird die Entwicklung der UI zeigen und eins eine Funktion innerhalb des Codes worauf ich besonders stolz bin oder die mich am Meisten zum Verzweifeln gebracht hat.",
       "type" : "photoChallenge",
       "elements" : [
+        {
+          "date" : "24.03.2018",
+          "project" : "fullstack",
+          "text": "Heute hab ich viel mit Imports und Vue Single File Components gepspielt. Leider noch keine wirklichen .vue-Files aber immerhin. Zudem funktioniert die Landingpage jetzt.",
+          "media" : [
+            {
+              "link" : "media/challenges/0/03-24-18/0.JPG",
+              "description" : "Funktionalität für die Landingpage. Validierung lässt noch viel Luft nach oben aber es war mir erstmal wichtig die Funktionalität wieder herzustellen."
+            },
+            {
+              "link" : "media/challenges/0/03-24-18/1.JPG",
+              "description" : "Hauptmenü Mockup. Noch sehr modern designt solange ich noch kein Konzept hab wie ich am Besten Gamification einbaue."
+            }
+          ]
+        },
+        {
+          "date" : "23.03.2018",
+          "project" : "fullstack",
+          "text": "Durch Prüfungsstress hatte ich heute leider wenig Zeit etwas zu machen. Hauptsächlich nur ein bisschen am Dateisystem verfeinert um die Übersichtlichkeit zu bewaren.",
+          "media" : [
+            {
+              "link" : "media/challenges/0/03-23-18/1.JPG",
+              "description" : "ES6 Imports das erste Mal benutzt um das Projekt übersichtlicher zu machen. Daher hat sich nicht viel an der Funktionalität geändert. (Hoffentlich)"
+            },
+            {
+              "link" : "media/challenges/0/03-23-18/0.JPG",
+              "description" : "Erstes HTML Mockup der späteren Landingpage. 2 Bereiche einmal ein Bild/Elemente aus dem späteren Spiel und einmal die Login/Registrieren Elemente."
+            }
+          ]
+        },
         {
           "date" : "22.03.2018",
           "project" : "portfolio",

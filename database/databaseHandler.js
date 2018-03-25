@@ -124,8 +124,9 @@ function expandProjectDescription(){
 }
 
 function hideDescription(id){
+  debugger;
   TweenLite.to(".projectDescription", 0, {y:0})
-  TweenLite.to(".projectDescription", .6, {y:"+900vh", ease: Back.easeOut})
+  TweenLite.to(".projectDescription", .6, {y:"+1200vh", ease: Back.easeOut})
   document.getElementById('projectList').style.display="flex";
   document.getElementById('slider').style.display="block";
   document.getElementById('slidedescription--active').style.display="block";
@@ -142,6 +143,7 @@ function createDescriptionOnClick(){
 
 const readChallenges = () => {
   if(!challenges){
+    //no challenge definied
     return;
   }
 
@@ -172,6 +174,9 @@ const readChallenges = () => {
 
 const createChallengeDescription = (challenge, id) => {
   $("#" + id).click(() => {
+    if(event.target.nodeName === "IMG"){
+      return;
+    }
     const challengeDiv = document.getElementById(id);
     if(state.challengeOpen){
       clearChildNodes(document.getElementById("challengeContent"));
@@ -193,6 +198,9 @@ const createChallengeDescription = (challenge, id) => {
     switch(challenge.type){
       case "photoChallenge" :
       createPhotoChallenge(challenge.elements, id);
+      default:
+        //do nothing
+
     }
   })
 }
@@ -217,8 +225,8 @@ const createPhotoChallenge = (elements, id) => {
     const elementText = document.createElement("p");
     elementText.innerHTML = ele.text;
 
-    elementDiv.append(elementText);
     elementDiv.append(elementHeadline);
+    elementDiv.append(elementText);
 
     //media
     for(let media of ele.media){

@@ -35,11 +35,11 @@ data =[
     "description" : [
       {
         "headline": "Vision",
-        "content" : "Blah Blah"
+        "content" : "Im 4. Semester wurden wir vor die Wahl gestellt eine Webappliktion für den neu angeschafften Touchscreen der Universität zu bauen. Die Vision des Tutors war es mit drei Geräten, dem Bildschirm und zwei Handys ein Spiel zu spielen. Und so entstand die Idee zu BattleShips eine Umsetzung des klassichen Schiffeversenkens jedoch über 3 Geräte."
       },
       {
         "headline": "Entwicklungsprozess",
-        "content" : "Blah Blah"
+        "content" : "Am Entwicklungsprozess waren neben mir noch 4 weitere Studenten beteiligt. Dabei haben wir uns in 3 Gruppen aufgeteilt: Server, Frontend und Backend. Meine Wenigkeit war Teil des zweiköpfigen Frontendteams, welches für alle Oberflächen, grafische Elemente sowie auch UI und UX Design zuständig war. Dabei war mein Teilbereich hauptsächlich die Funktionalitäten des Spiels auf den verschiedenen Geräten zu gewährleisten. Das heißt Spielzugmanagement, Platzierung der Schiffe und auch die Backendschnittstellen. Um dem Benutzer das bestmögliche Gefühl zu geben war ich außerdem damit beschäftigt die Schiffe zu designen und animationen zu entwerfen. Für statische Grafiken und Animationen griff ich auf die Programme AfterEffects und Photoshop zurück. Damit jedoch nicht genug um auch innerhalb des Spiels dynamische Anmiationen wie zum Beispiel den Spielerwechsel oder ein vollkommen dynamisches Tutorial zu bewerkstelligen haben wir uns mit dem JavaScript Animationsframework Greensock auseinander gesetzt. Dieses ermöglicht CSS-Transitions über JavaScript zu steuern und auch noch vieles mehr."
       }
     ],
     "tags" : [
@@ -56,11 +56,11 @@ data =[
     "description" : [
       {
         "headline": "Vision",
-        "content" : "Blah Blah"
+        "content" : ""
       },
       {
         "headline": "Entwicklungsprozess",
-        "content" : "Blah Blah"
+        "content" : ""
       }
     ],
     "tags" : [
@@ -78,11 +78,11 @@ data =[
     "description" : [
       {
         "headline": "Vision",
-        "content" : "Blah Blah"
+        "content" : ""
       },
       {
         "headline": "Entwicklungsprozess",
-        "content" : "Blah Blah"
+        "content" : ""
       }
     ],
     "tags" : [
@@ -90,6 +90,30 @@ data =[
       {"name": "Gamification", "type" : "code"},
       {"name": "Android", "type" : "code"},
       {"name": "Java", "type" : "code"}
+    ]
+  },
+  {
+    "projectName" : "Fullstack",
+    "isOnProjectPage" : true,
+    "thumbnail" : "proj8",
+    "link" : "/",
+    "description" : [
+      {
+        "headline": "Vision",
+        "content" : "In meinen 6 Semestern Hochschule habe ich eins gelernt. Auswendiglernen nervt. Daten, Verfahren etc. wollen einfach nicht in meinen Kopf und die Motivation sinkt. Ich hab vile rumprobiert und bin mit keiner Karteikarten App wirklich zufrieden gewesen. Was macht man da nur als Medieninformatikstudent? Genau selber bauen genau wie ich mir so eine Karteikarten/ Lernapplikation vorstelle. Und damit das alles nicht zu langweilig wird und ich was dabei lerne mache ich daraus auch gleich mein erstes FullStack Webprojekt. Fullstack? Genau, nicht nur der Name der App sondern auch den Aufgabenbereich den ich mir für dieses Projekt gesteckt habe. Quasi alles zu machen. Backend, Frontend, UI/UX Design, Planung und Architektur. Zudem habe ich \"fast\" gleichzeitig meine eigene kleine Challenge gestartet um diesen Entwicklungsprozess zu Dokumentieren und meine Entscheidungen auf dem Weg zum fertigen Prokdukt festzuhalten. Leider kam mir die Idee erst ungefähr 3 Wochen nach Start des Projekts weswegen dort die ersten Entwicklungen nicht zu finden sein werden."
+      },
+      {
+        "headline": "Entwicklungsprozess",
+        "content" : "Ongoing. Schwerer als Gedacht aber dadurch auch mehr zu lernen. Um mehr darüber zu erfahren besuch doch mal meine Challenges Seite :)"
+      }
+    ],
+    "tags" : [
+      {"name": "Frontend", "type" : "job"},
+      {"name": "Backend", "type" : "code"},
+      {"name": "Gamification", "type" : "code"},
+      {"name": "JavaScript", "type" : "code"},
+      {"name": "Vue", "type" : "code"},
+      {"name": "Node/Express", "type" : "code"},
     ]
   },
   {

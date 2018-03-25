@@ -160,7 +160,7 @@ function zoomImg(src){
   let zoomImgDiv = document.getElementById("zoomDiv");
   if(zoomImgDiv.style.display === "block"){
     zoomDiv.style.display = "none";
-    state.scrollable = false;
+    if(!state.challengeOpen ) state.scrollable = false;
     return;
   }
   state.scrollable = true;
